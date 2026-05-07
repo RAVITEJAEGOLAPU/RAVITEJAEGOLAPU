@@ -1,0 +1,7 @@
+from tabulate import tabulate
+tittle=["name","age","deparment"]
+data=[["raj",21,"cse"],
+      ["ravi",60,"mech"],
+      ["arun",55,"civil"]]
+r=tabulate(data,headers=tittle,tablefmt="pretty")
+print(r)
